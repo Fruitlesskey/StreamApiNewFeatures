@@ -37,11 +37,11 @@ public class StreamApiNewFeaturesApplication {
         .forEach(System.out::println);
 
     List<Employee> employees = Arrays.asList(
-        new Employee("Alice", 50000),
-        new Employee("Bob", 60000),
-        new Employee("Charlie", 70000),
-        new Employee("David", 80000),
-        new Employee("Eve", 90000),
+        new Employee("Alice", 50_000),
+        new Employee("Bob", 60_000),
+        new Employee("Charlie", 70_000),
+        new Employee("David", 80_000),
+        new Employee("Eve", 90_000),
         new Employee("Frank", 100_000),
         new Employee("Grace", 110_000),
         new Employee("Henry", 120_000)
